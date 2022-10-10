@@ -158,6 +158,7 @@ font-size: 40px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-shadow: 2px -1px #E93479;
 }
+
 p{
 font-size: 30px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -221,7 +222,7 @@ button{
 
 
 
-
+/* organize everything more simply */
 .side-content{
 display: flex;
 flex-direction:row;

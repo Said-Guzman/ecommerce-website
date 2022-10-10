@@ -1,0 +1,22 @@
+[
+
+{
+    "name" : "exe Sweater",
+    "image" : "/images/exe.webp",
+    "price" : "$35",
+    "description" : "Stay comfy with the sweater"
+},
+{
+    "name" : "exe Sticker",
+    "image" : "/images/exe-sticker.webp",
+    "price" : "$40",
+    "description" : "Good looking sticker"
+},
+{
+    "name" : "exe Blanket",
+    "image" : "/images/exe-blanket.webp",
+    "price" : "$25",
+    "description" : "Comfy blanket to sleep with"
+}
+
+]

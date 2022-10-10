@@ -1,12 +1,12 @@
-//fetch stuff files 
+//fetch the file
 fetch("/JSON files/items.json")
-.then(function(response){ 
-    return response.json()})
+.then(function(response){ //callback function
+    return response.json()}) 
 .then(function(sale){
-    let placeholder = document.querySelector(".selling");
-    let out = "";
-    for (let product of sale){
-        out +=  
+    let placeholder = document.querySelector(".selling");// calls the div class
+    let out = ""; //this will make sense later but essentially html in the quotations
+    for (let product of sale){  //for loop
+        out +=  // html under here
         `<div class="product-item">
             
             <video loop autoplay preload="auto">
@@ -33,7 +33,7 @@ fetch("/JSON files/items.json")
             
        </div> `
     }
-    placeholder.innerHTML = out;
+    placeholder.innerHTML = out; //calls the div class and inserts text in it
 });
 
 fetch("/JSON files/produce.json")
@@ -108,19 +108,17 @@ fetch("/JSON files/produce2.json")
     }
     placeholder.innerHTML = out;
 });
-fetch("/JSON files/.json")
+fetch("/JSON files/drip.json")
 .then(function(response){ 
     return response.json()})
 .then(function(sale){
-    let placeholder = document.querySelector(".side-content2");
+    let placeholder = document.querySelector(".ice");
     let out = "";
     for (let product of sale){
         out +=  
         `<div class="produce-item">
+            <img src="${product.image}">
             
-            <video loop autoplay preload="auto">
-            <source src="${product.video}">
-            </video>
         
                 <div class="produce-content"
 
