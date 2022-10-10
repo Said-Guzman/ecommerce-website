@@ -288,11 +288,11 @@ input:hover{
 
 footer{
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
   background-color: #300350;
-position: relative;
-bottom: 0;
-}
+  text-shadow: 1px -1px #F9AC53;
+  
+  }

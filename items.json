@@ -1,4 +1,24 @@
+[
+    {
+   
+    "name": "Music Videos",
+    "price" : "$150",
+    "video": "/videos/sky.mp4"
+    },
+    {
+    
+    "name": "Ads",
+    "price" : "$200",
+    "video": "/videos/sky_1.mp4"
+    },
+    {
+    
+    "name": "Commisions",
+    "price" : "$75",
+    "video":"/videos/sky_2.mp4"
+    }
 
+]
 
 
 
