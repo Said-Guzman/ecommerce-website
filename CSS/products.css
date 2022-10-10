@@ -142,7 +142,7 @@ justify-content: space-around;
 text-align: center;
 margin: 20px;
 color: #F9AC53;
-
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 video{
 border-radius: 15px;
@@ -230,6 +230,7 @@ text-align: center;
 margin: 20px;
 color: #F9AC53;
 justify-content: space-around;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .side-content2{
@@ -240,6 +241,7 @@ justify-content: space-around;
   margin: 20px;
   color: #F9AC53;
   justify-content: space-around;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
 

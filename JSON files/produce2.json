@@ -1,0 +1,23 @@
+[
+    {
+    "name": "Editing Pack 4",
+    "price" : "$45",
+    "video": "/videos/packs_3.mp4",
+    "description" : "Sound Effect Packs"
+    },
+    {
+    
+    "name": "Editing Pack 5",
+    "price" : "$50",
+    "video": "/videos/packs_4.mp4",
+    "description" : "Film Burn Packs"
+    },
+    {
+    
+    "name": "Editing Pack 6",
+    "price" : "$60",
+    "video":"/videos/packs_5.mp4",
+    "description" : "Special exe Pack"
+    }
+
+]

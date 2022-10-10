@@ -1,4 +1,5 @@
-fetch("/items.json")
+//fetch stuff files 
+fetch("/JSON files/items.json")
 .then(function(response){ 
     return response.json()})
 .then(function(sale){
@@ -18,8 +19,11 @@ fetch("/items.json")
                         <h1>${product.name}</h1>
                     </div>
 
-                    <div class="product-age">
+                    <div class="product-price">
                         <p>${product.price}</p>
+                    </div>
+                    <div class="product.description">
+                    <p>${product.description}</p>
                     </div>
                     <div class="icon">
                     <button type="submit">
@@ -32,7 +36,7 @@ fetch("/items.json")
     placeholder.innerHTML = out;
 });
 
-fetch("/produce.json")
+fetch("/JSON files/produce.json")
 .then(function(response){ 
     return response.json()})
 .then(function(sale){
@@ -55,6 +59,9 @@ fetch("/produce.json")
                     <div class="product-age">
                         <p>${product.price}</p>
                     </div>
+                    <div class="product.description">
+                    <p>${product.description}</p>
+                    </div>
                     <div class="icon">
                     <button type="submit">
                         Buy Now
@@ -65,7 +72,7 @@ fetch("/produce.json")
     }
     placeholder.innerHTML = out;
 });
-fetch("/produce2.json")
+fetch("/JSON files/produce2.json")
 .then(function(response){ 
     return response.json()})
 .then(function(sale){
@@ -87,6 +94,45 @@ fetch("/produce2.json")
 
                     <div class="product-age">
                         <p>${product.price}</p>
+                    </div>
+                    <div class="product.description">
+                    <p>${product.description}</p>
+                    </div>
+                    <div class="icon">
+                    <button type="submit">
+                        Buy Now
+                        </button>
+                </div>
+            
+       </div> `
+    }
+    placeholder.innerHTML = out;
+});
+fetch("/JSON files/.json")
+.then(function(response){ 
+    return response.json()})
+.then(function(sale){
+    let placeholder = document.querySelector(".side-content2");
+    let out = "";
+    for (let product of sale){
+        out +=  
+        `<div class="produce-item">
+            
+            <video loop autoplay preload="auto">
+            <source src="${product.video}">
+            </video>
+        
+                <div class="produce-content"
+
+                    <div class="product-name">
+                        <h1>${product.name}</h1>
+                    </div>
+
+                    <div class="product-age">
+                        <p>${product.price}</p>
+                    </div>
+                    <div class="product.description">
+                    <p>${product.description}</p>
                     </div>
                     <div class="icon">
                     <button type="submit">
