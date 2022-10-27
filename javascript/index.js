@@ -25,5 +25,11 @@ const swiper = new Swiper('.swiper', {
 
 
 
+function validation(e){
+  if (document.getElementById("info-text").value === ""){
+    alert ('Please make sure to fill everything out')
+    return;
+  }
+}
 
 

@@ -185,6 +185,18 @@ text-shadow: 2px -2px #300350;
   left: 5%;
   animation: bar 1s alternate-reverse infinite;
 }
+#info-text2{
+  width: 85%;
+  font-size: 25px;
+  margin:20px;
+  background-color: transparent;
+  border: none;
+  color:#F62E97;
+  text-shadow: 2px -.5px #300350;
+  position: relative;
+  left: 5%;
+  animation: bar 1s alternate-reverse infinite;
+}
 @keyframes bar{
 
   0% {border-bottom: 6px solid #94167F;}
