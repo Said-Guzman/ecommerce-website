@@ -145,15 +145,23 @@ left: -5%;
 }
 
 .info{
-  background-color: aqua;
-  width: 300px;
+  background-color: #94167F;
+  width: 400px;
   border-radius: 20px;
+  border-style: solid;
+  border-color: #F9AC53;
+  color: #F9AC53;
+  text-align: center;
 }
 
 .buy{
-  background-color: lime;
-  width: 300px;
+  background-color: #94167F;
+  width: 400px;
   border-radius: 20px;
+  border-style: solid;
+  border-color: #F9AC53;
+  color: #F9AC53;
+  text-align: center;
 }
 
 .space{
